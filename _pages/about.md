@@ -1,24 +1,71 @@
 ---
 layout: about
-title: about
+title: about ℹ️
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Full-Stack Developer| FullStack Developer | Web Senior Developer| Linux | Backend Developer| Vue developer
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #image: prof_pic.jpg
+  #address: >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+experience: true  # includes social icons at the bottom of the page
+
+proficientBackend: 
+skills: [
+  {
+    title: 'Proficient- Backend',
+    description: 'Java,C#, PHP, bash-scripting, Databases: PostgresQL, Mysql. Others: Git,Linux(Centos, Fedora)',
+  },{
+    title: 'Proficient-Frontend',
+    description: 'Vue,Vuex, Axios, Javascript. ',
+  },{
+    title: 'Intermediate-Backend',
+    description: 'Python 3, Typescript Tools/Standards:Docker, Docker-compose, Vagrant, Vim, Tmux. Frameworks: JAVA:Spring , Spring Boot, JPA;Python:Flask;Nodejs, Makefile; PHP: Symfony',
+  },{
+    title: 'Intermediate-Frontend',
+    description: 'Typescript, Angular 2-4,8; Native Android(java). ',
+  },{
+    title: 'Intermediate-Others',
+    description: 'Scrum: User Stories,Scrum Daily; Jira, Trello,Version Control::Gitlab, Github , API Tools:Swagger, Open API, Insomnia, PostMan. Test: JMeter, Cypress',
+  },
+  {
+    title: 'Basic',
+    description: 'Languages: Ruby , Lua, Powershell, sed ,awk Other Command-line Tools. Tools: SoapUI: Database:MongoDB',
+  },
+
+  
+]
+design: 'BPMN, UML, Mockups'
 ---
+😄 Self-learner, curious, adaptable full-stack engineer with 4+ years of experience developing web-based solutions: applications, APIs, SOAP, and REST services/microservices focused in PHP and Java. Development of SDK and examples in many programming languages to allow customers to integrate easier with the company services. Proposed standards and guides and developed internal tools for the QA and Help Desk areas. Experience leading a team of junior developers for web projects.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+ 👀 I’m interested in developing interesting and useful projects, especially web projects as a fullstack developer, I like to improve things with new ideas, features, better architecture, code design, patterns, and practices. Something that I enjoy to find ways to make things easier, less prone to errors, and more understandable.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+📫 You can reach me via LinkedIn, sorry If I'm not so active in this social network but I will answer as soon as I notice your message and I have the appropriate time.
+
+You can know more about me in  [LinkedIn](https://www.linkedin.com/in/daniel-hernandez-fco). You can know about my [experience](/experience)
+
+
+
+<h3>Tech Skills</h3>
+
+<strong class="text-primary"> Tech Skills: </strong>
+{% for s in page.skills %}  
+<div class="row">
+  <strong class=""> {{s.title}}: </strong>
+  <p>{{s.description}}</p>
+</div>
+{% endfor %}
+
+<div class="row">
+  <strong class=""> Design and Modeling: </strong>
+  <p>{{page.design}}</p>
+</div>
