@@ -12,15 +12,31 @@ nav: true
 
 jobs: [
   {
+    title: 'Backend',
+    year: '2021-current',
+    company: 'Eiya',
+    tecnologies: ['Python','Django','Django Rest','kubernates','Bash scripting'],
+    databases: ['postgres','redis','mongodb',''],
+    description: 'As a backend engineer, I'm in charge of multiple microservices, improving performance, maintaining and updating the company's technology stack, as well as adding new features and improve workflows.',
+    bullet_points: [
+      'Responsible for more than 5 backend projects with an average of 210k lines of code, and more than 300 endpoints, with a test coverage of 80%..',
+    'Achieved response time optimization by 50% of the time by implementing concurrency strategies, async, batch processing, and ORM query optimizations in Python Django-based backend systems.',
+    'Resolved technical debt in 80% of systems by upgrading the tech stack in 4 projects which include technologies like:  Django, and Python among other dependencies, and updated container images for KS8/kubernetes production  environments. ',
+  'Improved Jenkins pipelines, fixed troubles with database setups and name collisions, and set up AWS such as S3 and IAM.'
+
+    ]
+    
+  },
+  {
     title: 'Senior developer',
-    year: '2020-current',
+    year: '2020-2021',
     company: 'Sifei',
     tecnologies: ['php','java','net','vue','python'],
     databases: ['postgres','mysql','mongodb',''],
-    description: 'Besides my responsibilities as a Full Stack Developer I’m leading a small team of developers and continuously proposing ideas',
+    description: 'As a Senior Full Stack Developer I lead a small team of developers and proposed product ideas that match with the company goals.',
     bullet_points: [
       'Devised and proposed a set of web microservice-based solutions regarding the company businesses that were necessary and complement other solutions to offer more features to customers by presenting them to executives.',
-
+  'Implemented multiple system optmizations at platform level with memory optmizations and at database level with queries optmizations, indexes, among other tecniques.',
 'Reduced the number of development style conflicts/decisions and reduced the number of QA review observations by 80% by implementing standard development and UI guides.',
 
 'Ensured QA and accelerated release feature process by 90% implementing different execution environments for outsourced software developed by a third-party company and  then by standardizing environments in web projects. ',

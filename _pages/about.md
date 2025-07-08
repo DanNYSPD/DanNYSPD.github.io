@@ -20,23 +20,22 @@ experience: true  # includes social icons at the bottom of the page
 proficientBackend: 
 skills: [
   {
-    title: 'Proficient- Backend',
-    description: 'Java,C#, PHP, bash-scripting, Databases: PostgresQL, Mysql. Others: Git,Linux(Centos, Fedora)',
+    title: 'Backend',
+    description: 'Python,PHP,Java,C#, Bash-scripting, Databases: PostgresQL, Mysql, Redis. Others: Git,Linux(Centos, Fedora). Tools/Standards:Docker, Docker-compose, Vagrant, Vim, Tmux. Frameworks: JAVA:Spring , Spring Boot, JPA;Python:Flask;Nodejs, Makefile; PHP: Symfony',
+  },
+   {
+    title: 'Devops',
+    description: 'Jenkings, Gitlab CD/CI, Docker',
+  }
+  ,{
+    title: 'Frontend',
+    description: 'Vue,Vuex,Javascript, Typescript, Angular 2-4,8; Native Android(java). ',
   },{
-    title: 'Proficient-Frontend',
-    description: 'Vue,Vuex, Axios, Javascript. ',
-  },{
-    title: 'Intermediate-Backend',
-    description: 'Python 3, Typescript Tools/Standards:Docker, Docker-compose, Vagrant, Vim, Tmux. Frameworks: JAVA:Spring , Spring Boot, JPA;Python:Flask;Nodejs, Makefile; PHP: Symfony',
-  },{
-    title: 'Intermediate-Frontend',
-    description: 'Typescript, Angular 2-4,8; Native Android(java). ',
-  },{
-    title: 'Intermediate-Others',
+    title: 'Tools',
     description: 'Scrum: User Stories,Scrum Daily; Jira, Trello,Version Control::Gitlab, Github , API Tools:Swagger, Open API, Insomnia, PostMan. Test: JMeter, Cypress',
   },
   {
-    title: 'Basic',
+    title: '',
     description: 'Languages: Ruby , Lua, Powershell, sed ,awk Other Command-line Tools. Tools: SoapUI: Database:MongoDB',
   },
 
@@ -44,12 +43,19 @@ skills: [
 ]
 design: 'BPMN, UML, Mockups'
 ---
-😄 Self-learner, curious, adaptable full-stack engineer with 4+ years of experience developing web-based solutions: applications, APIs, SOAP, and REST services/microservices focused in PHP and Java. Development of SDK and examples in many programming languages to allow customers to integrate easier with the company services. Proposed standards and guides and developed internal tools for the QA and Help Desk areas. Experience leading a team of junior developers for web projects.
+Senior Full-stack engineer with 8+ years of experience designing, modeling, and developing web-based solutions: applications, APIs, SOAP, and REST services/microservices using Python, Django, PHP, Java and multiple frameworks. Proven ability to optimize performance, upgrade systems, resolve complex technical challenges, and deliver high-quality solutions. Proposed and implemented standards, guides, resources and developed internal tools for the DEV, QA and Help Desk areas. Seeking a challenging role in an environment where I can contribute to innovative projects with the best industry practices. 
 
-
- 👀 I’m interested in developing interesting and useful projects, especially web projects as a fullstack developer, I like to improve things with new ideas, features, better architecture, code design, patterns, and practices. Something that I enjoy to find ways to make things easier, less prone to errors, and more understandable.
+ 👀 I’m interested in developing impactful projects, especially web projects as a fullstack developer, I like to improve things with new ideas, features, better architecture, code design, patterns, and practices.  I enjoy to find ways to make things easier, less prone to errors,more robust and mantainable.
 
 📫 You can reach me via LinkedIn, sorry If I'm not so active in this social network but I will answer as soon as I notice your message and I have the appropriate time.
+
+### VS code extensions contributions:
+I have contributed to VsCode Extensions:
+
+  [Context-Organizer](https://github.com/devaniljr/context-organizer) A vscode extension that allow to group related files by context.
+
+  [vscode-php-getters-setters](https://github.com/DanNYSPD/vscode-php-getters-setters) A vscode extension that provides functionalities for PHP code such as creating useful methods based on propeties.
+
 
 You can know more about me in  [LinkedIn](https://www.linkedin.com/in/daniel-hernandez-fco). You can know about my [experience](/experience)
 
@@ -69,3 +75,4 @@ You can know more about me in  [LinkedIn](https://www.linkedin.com/in/daniel-her
   <strong class=""> Design and Modeling: </strong>
   <p>{{page.design}}</p>
 </div>
+
